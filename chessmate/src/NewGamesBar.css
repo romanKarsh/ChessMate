@@ -1,0 +1,13 @@
+.newGamesBar {
+    display: block;
+    padding: 0px 25px;
+}
+
+.disabled {
+    /*
+    pointer-events: none;
+    opacity: 0.5;
+    background: #CCC;
+    */
+    display: none;
+}

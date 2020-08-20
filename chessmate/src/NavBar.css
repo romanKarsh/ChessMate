@@ -1,0 +1,13 @@
+.nav-wrapper{
+    border: 2.5px solid #26A69A;
+}
+
+.profile-link:hover{
+    text-decoration: underline;
+    background: orangered;
+    color: yellow;
+}
+
+@keyframes profile-link-hover{
+    0% {}
+}

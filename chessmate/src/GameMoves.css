@@ -1,0 +1,22 @@
+.gamemoves{
+    display: block;
+    padding: 25px;
+    height: 300px;
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+.filter-wrapper{
+    border: 2.5px solid #26A69A;
+    padding: 10px 0px;
+}
+
+.filter-text{
+    color: white;
+    padding-left: 20%;
+}
+
+.filter-box{
+    background: white;
+    color: white;
+}

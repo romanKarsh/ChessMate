@@ -1,0 +1,151 @@
+.special {
+    padding: 15px;
+}
+
+.special-margin {
+    margin: 15px;
+}
+
+.playbutton {
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+}
+
+.circles {
+    margin: auto;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-top: 10px solid saddlebrown;
+    border-left: 10px solid salmon;
+    border-right: 10px solid goldenrod;
+    border-bottom: 10px solid seagreen;
+}
+
+.circle1 {
+    animation: spin1 2s infinite linear;
+}
+
+.circle2 {
+    animation: spin2 2s infinite linear;
+}
+
+.circle3 {
+    animation: spin3 2s infinite linear;
+}
+
+.circle4 {
+    animation: spin4 2s infinite linear;
+}
+
+.circles h5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    animation-play-state: paused;
+}
+
+.special-head {
+    background: #26A69A;
+}
+
+.dev-stack-row {
+    padding: 10px;
+}
+
+.langs-frames {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.inner-l {
+    text-align: right;
+    color: white;
+    background: black;
+    animation-name: left-animation;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.inner-r {
+    text-align: left;
+    color: black;
+    background: white;
+    animation-name: right-animation;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes left-animation {
+    0% {
+        background: black;
+        color: white;
+    }
+
+    100% {
+        background: white;
+        color: black;
+    }
+}
+
+@keyframes right-animation {
+    0% {
+        background: white;
+        color: black;
+    }
+
+    100% {
+        background: black;
+        color: white;
+    }
+}
+
+.main {
+    font-size: 5em;
+}
+
+@keyframes spin1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin2 {
+    0% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(450deg);
+    }
+}
+
+@keyframes spin3 {
+    0% {
+        transform: rotate(-90deg);
+    }
+
+    100% {
+        transform: rotate(270deg);
+    }
+}
+
+@keyframes spin4 {
+    0% {
+        transform: rotate(-180deg);
+    }
+
+    100% {
+        transform: rotate(180deg);
+    }
+}

@@ -1,0 +1,45 @@
+.admin_container {
+    padding: 25px;
+}
+
+#users_title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#users_table {
+    text-align: center;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+/*table cells */
+#users_table td{
+    text-align: center;
+    padding: 10px;
+}
+
+/*table header*/
+#users_table th {
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+/*back hyperlink*/
+#back {
+    font-weight: bold;
+}
+
+.save_difficulty{
+    margin-bottom: 25px;
+}
+
+#stats_table{
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.username_filter{
+    width: 100%;
+}

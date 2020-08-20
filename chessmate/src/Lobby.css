@@ -1,0 +1,44 @@
+td{
+    margin: 15px;
+}
+
+.lobby{
+    display: block;
+    padding: 25px;
+}
+
+.available{
+    border: 2.5px solid #26A69A;
+    background: darkgreen;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.inprogress{
+    border: 2.5px solid #26A69A;
+    background: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.filter-wrapper{
+    border: 2.5px solid #26A69A;
+    padding: 10px 0px;
+}
+
+.filter-text{
+    color: white;
+}
+
+.filter-box{
+    background: white;
+    color: white;
+}
+
+.lobby-body{
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 300px;
+}

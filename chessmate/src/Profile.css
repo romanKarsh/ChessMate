@@ -1,0 +1,64 @@
+#ProfileInfo {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#ChangeProfileInfo {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#GameStuff {
+    margin-left: 50px;
+}
+
+#stats {
+    font-size: 1.5em;
+}
+
+#friendList {
+    overflow:hidden; 
+    overflow-y:scroll;
+    height:100px;
+}
+
+#matchHistory {
+    overflow:hidden; 
+    overflow-y:scroll;
+    height:200px;
+}
+
+#playButton {
+    height:100px;
+    width: 40%;
+    font-size: 36px;
+    text-align: centre;
+}
+
+#friendButton {
+    height:100px;
+    width: 40%;
+    font-size: 36px;
+    text-align: centre;
+}
+
+#username { 
+    text-align: center; 
+    width: 200px;
+}
+
+
+#otherusername { 
+    text-align: center; 
+    width: 200px;
+}
+
+.badge{
+    margin: 10px;
+    height: 50px; 
+    width: 50px;
+}
+
+.redText {
+    color: red
+}

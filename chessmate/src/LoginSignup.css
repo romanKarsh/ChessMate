@@ -1,0 +1,22 @@
+.login_signup{
+    width: 500px;
+    border: 2.5px solid #26A69A;
+    padding: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.error{
+    color: red;
+    border: 2.5px solid red;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.space-around{
+    margin: 0px 5px;
+}

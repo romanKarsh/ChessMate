@@ -1,0 +1,7 @@
+.gamelostpieces {
+  display: block;
+}
+
+.pieces li {
+  display: inline;
+}

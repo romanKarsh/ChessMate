@@ -1,0 +1,20 @@
+.gametime{
+    display: block;
+    padding: 25px;
+    height: 10%;
+}
+
+.filter-wrapper{
+    border: 2.5px solid #26A69A;
+    padding: 10px 0px;
+}
+
+.filter-text{
+    color: white;
+    align-content: center;
+}
+
+.filter-box{
+    background: white;
+    color: white;
+}

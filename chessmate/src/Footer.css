@@ -1,0 +1,14 @@
+.footer-wrapper{
+    border: 2.5px solid #26A69A;
+    
+}
+
+.dev-info{
+    border: 2.5px solid #26A69A;
+    background: #26A69A;
+    padding: 10px 0px;
+}
+
+a{
+    color: white;
+}
